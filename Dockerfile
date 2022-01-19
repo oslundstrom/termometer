@@ -1,1 +1,2 @@
-FROM arm32v7/golang:1.17
+ARG VARIANT
+FROM arm32v7/golang:$VARIANT
